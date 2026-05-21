@@ -15,10 +15,10 @@
 # SPDX-License-Identifier: Apache-2.0
 name: skywater-pdk-docs
 channels:
-- symbiflow
+- litex-hub
 - defaults
 dependencies:
-- python=3.8
+- python=3.11
 - pip
 - netlistsvg
 # Packages installed from PyPI
