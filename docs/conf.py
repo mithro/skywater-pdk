@@ -90,10 +90,10 @@ master_doc = 'index'
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 if not on_rtd:
     html_context = {
-        "display_github": True,         # Integrate GitHub
-        "github_user": "google",        # Username
-        "github_repo": "skywater-pdk",  # Repo name
-        "github_version": "main",       # Version
+        "display_github": True,                  # Integrate GitHub
+        "github_user": "fossi-foundation",       # Username
+        "github_repo": "skywater-pdk",           # Repo name
+        "github_version": "main",                # Version
         "conf_py_path": "/docs/",
     }
 else:
@@ -169,8 +169,8 @@ html_theme_options = {
     'color_accent': 'teal',
 
     # Set the repo location to get a badge with stats
-    'github_url': 'https://github.com/google/skywater-pdk',
-    'repo_name': 'google/skywater-pdk',
+    'github_url': 'https://github.com/fossi-foundation/skywater-pdk',
+    'repo_name': 'fossi-foundation/skywater-pdk',
 
     'globaltoc_depth': 4,
     'globaltoc_collapse': False,
