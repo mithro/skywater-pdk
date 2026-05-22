@@ -48,5 +48,7 @@ submodules:
    - libraries/sky130_fd_sc_ms/latest
   recursive: false
 
-formats:
-  - pdf
+# PDF/LaTeX output disabled: the sphinx-latex + latexmk steps add ~7 min,
+# pushing the build past RTD's 15-min community limit (HTML alone is ~7 min
+# including submodules + conda). Re-enable on a tier with a higher limit.
+formats: []
